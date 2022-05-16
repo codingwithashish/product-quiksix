@@ -1,0 +1,136 @@
+// ==========
+// Colors
+$white : #ffffff;
+$black : #000000;
+$circle-grey: #EFEFEF;
+$lightBlur_border: #58688C;
+$lighter_grey: #F8F8F8;
+$body_grey: #E5E5E5;
+$primary_black: #333333;
+$primary_blue :#21438E;
+$darken_blue: #11285B;
+$primary_green : #50A146;
+$circle_blue_100: #21438E;
+
+// ==========
+// Typography
+$primary_fonts: 'Poppins',
+sans-serif;
+$secondary-fonts: 'Manjari',
+sans-serif;
+
+$font:("primary_font": 16px,
+    "base_font": 20px,
+    "heading_one": 62px,
+    "heading_two": 32px,
+    "heading_three": 1.75rem,
+    "heading_four": 1.5rem,
+    "heading_five": 18px,
+    "heading_six": 14px);
+
+$font-weight:("lighter": 300,
+    "regular": 400,
+    "medium": 500,
+    "light_bold": 600,
+    "semi_bold": 700,
+    "ultra_bold": 900);
+
+
+h1,
+.h1,
+h2,
+.h2 {
+    font-weight: map-get($font-weight, regular);
+    line-height: 1.2;
+}
+
+h1,
+.h1 {
+    font-size: map-get($font, heading_one) !important;
+    line-height: 74px;
+    letter-spacing: 1.86px;
+    margin: 0 0 1.25rem;
+
+    strong {
+        font-weight: map-get($font-weight, light_bold);
+    }
+
+    @media (max-width: 1799px) {
+        font-size: 50px !important;
+        line-height: 60px;
+        letter-spacing: 1.5px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 36px !important;
+        line-height: 43.2px;
+        letter-spacing: 1.08px;
+    }
+}
+
+h2,
+.h2 {
+    font-size: map-get($font, heading_two);
+    font-weight: map-get($font-weight, light_bold);
+    line-height: 38.4px;
+    letter-spacing: 0.96px;
+
+    @media (max-width: 1799px) {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 36px;
+        letter-spacing: 0.03em;
+    }
+}
+
+h3,
+.h3 {
+    font-size: map-get($font, heading_three);
+}
+
+h4,
+.h4 {
+    font-size: map-get($font, heading_four);
+    font-weight: map-get($font-weight, light_bold);
+    letter-spacing: 0.72px;
+}
+
+h5,
+.h5 {
+    font-size: map-get($font, heading_five);
+}
+
+h6,
+.h6 {
+    font-size: map-get($font, heading_six);
+}
+
+p:empty {
+    display: none;
+}
+
+
+// Transitions
+$cmn_transition: all 200ms ease;
+// ==========
+// Shadows
+$cmn-box-shadow: 0px 20px 40px rgba($black, .14);
+// ==========
+// Border Radius
+$cmn-box-radius-sm: 8.125rem 1.25rem 8.125rem 1.25rem;
+// ==========
+// Shapes
+$shape-size-lg: 15.3125rem;
+$cmn-space-lg: 7.5rem;
+$tab-aside-width: 168px;
+// ==========
+// Margin & Paddings
+$unit-5: 3.125rem;
+$unit-6: 4.375rem;
+$unit-7: 5.5rem;
+$unit-8: 8.75rem;
+

@@ -1,0 +1,74 @@
+@import "mixin";
+
+// ==========
+// Text Colors
+.text-black {
+    color: $primary_black;
+}
+
+// ==========
+// Common Classes
+.f-center {
+    @include f-center;
+}
+
+.p-center {
+    @include p-center;
+}
+
+.px-center {
+    @include px-center;
+}
+
+.py-center {
+    @include py-center;
+}
+
+.o-contain {
+    object-fit: contain;
+}
+
+.o-cover {
+    object-fit: cover;
+}
+
+// ==========
+// Text Colors
+
+
+// ==========
+// Backgrounds
+
+
+// .bg-gradient-green {
+//     background: linear-gradient(91.85deg, rgba(89, 189, 105, 0.5) 18.93%, rgba(167, 255, 202, 0) 93.26%), #50A146;
+// }
+
+.bg-blue {
+    background-color: $primary_blue;
+}
+
+// ==========
+// Spaces
+.mt-5 {
+    margin-top: $unit-5 !important;
+}
+
+.mb-5 {
+    margin-bottom: $unit-5 !important;
+}
+
+// ==========
+// Overlays
+
+// Buttons
+// ==========
+
+// ==========
+// Others
+
+// Headings
+
+// Common Navigation
+
+// Preloader CSS
