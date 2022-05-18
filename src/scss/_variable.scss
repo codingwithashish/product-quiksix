@@ -6,20 +6,20 @@ $circle-grey: #EFEFEF;
 $lightBlur_border: #58688C;
 $lighter_grey: #F8F8F8;
 $body_grey: #E5E5E5;
-$primary_black: #333333;
+$primary_black: #151515;
 $primary_blue :#21438E;
 $darken_blue: #11285B;
-$primary_green : #50A146;
+$primary_green : #6A983C;
 $circle_blue_100: #21438E;
+$border-color: rgba(7, 24, 47, 0.05);
 
 // ==========
 // Typography
 $primary_fonts: 'Poppins',
 sans-serif;
-$secondary-fonts: 'Manjari',
-sans-serif;
 
-$font:("primary_font": 16px,
+$font:("small_font": 12px,
+    "primary_font": 16px,
     "base_font": 20px,
     "heading_one": 62px,
     "heading_two": 32px,
@@ -50,22 +50,6 @@ h1,
     line-height: 74px;
     letter-spacing: 1.86px;
     margin: 0 0 1.25rem;
-
-    strong {
-        font-weight: map-get($font-weight, light_bold);
-    }
-
-    @media (max-width: 1799px) {
-        font-size: 50px !important;
-        line-height: 60px;
-        letter-spacing: 1.5px;
-    }
-
-    @media (max-width: 767px) {
-        font-size: 36px !important;
-        line-height: 43.2px;
-        letter-spacing: 1.08px;
-    }
 }
 
 h2,
@@ -74,17 +58,6 @@ h2,
     font-weight: map-get($font-weight, light_bold);
     line-height: 38.4px;
     letter-spacing: 0.96px;
-
-    @media (max-width: 1799px) {
-        font-size: 25px;
-        line-height: 30px;
-        letter-spacing: 1.5px;
-    }
-
-    @media (max-width: 767px) {
-        font-size: 36px;
-        letter-spacing: 0.03em;
-    }
 }
 
 h3,
@@ -118,15 +91,16 @@ p:empty {
 $cmn_transition: all 200ms ease;
 // ==========
 // Shadows
+$base_shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
 $cmn-box-shadow: 0px 20px 40px rgba($black, .14);
 // ==========
 // Border Radius
 $cmn-box-radius-sm: 8.125rem 1.25rem 8.125rem 1.25rem;
 // ==========
 // Shapes
-$shape-size-lg: 15.3125rem;
-$cmn-space-lg: 7.5rem;
-$tab-aside-width: 168px;
+$cmn-border-sm: 1px solid rgba(7, 24, 47, 0.05); 
+$cmn-border-md: 2px solid rgba(7, 24, 47, 0.05); 
+
 // ==========
 // Margin & Paddings
 $unit-5: 3.125rem;

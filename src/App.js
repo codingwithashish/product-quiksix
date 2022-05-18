@@ -1,12 +1,8 @@
 import React from 'react';
+import Header from './Header';
+import Banner from './components/Banner';
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-               
-      </header>
-    </div>
-  );
+    return (<> <Header/> < Banner /> </>);
 }
 
 export default App;

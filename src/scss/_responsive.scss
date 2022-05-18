@@ -10,11 +10,19 @@
 }
 
 @media(min-width:992px){
-    
+    .navbar-expand-lg {
+        display: block;
+    }
 }
 
 @media(min-width:1200px){
     
+}
+
+@media(min-width:1800px){
+    .container-xxl{
+        max-width: 1770px;
+    }
 }
 
 // max-width queries
