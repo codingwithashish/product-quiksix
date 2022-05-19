@@ -8,7 +8,7 @@ body {
 
 a {
     text-decoration: none;
-    color: $primary_green !important;
+    color: $primary_green;
     transition: all 300ms ease;
     &:hover {
         color: $primary_blue !important;
@@ -26,10 +26,23 @@ a {
         box-shadow: none;
     }
 }
+
+img{
+    width: 100%;
+    height: 100%;
+}
 i,
 svg {
     color: $primary_black;
     &:hover {
         color: $primary_green;
     }
+}
+
+// swiper carousel
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $primary_green;
 }

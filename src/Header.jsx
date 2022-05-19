@@ -27,7 +27,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="center-nav d-flex justify-content-between align-items-center">
-                <img src={logo} alt="Brand Logo"/>
+                <div className="brand"><img src={logo} alt="Brand Logo"/></div>
                 <form class="d-flex search-container position-relative">
                     <div className="select-wrap">
                         <select className="form-control">
