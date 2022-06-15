@@ -9,22 +9,25 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import {Container} from "@mui/system";
-import {Box, IconButton} from "@mui/material";
+import {Box, IconButton, Typography} from "@mui/material";
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import ShareIcon from '@mui/icons-material/Share';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const ProductCards = () => {
-    return ( <> <section className=" py-6">
-        <Container maxWidth="lg" className="container-xxl">
+    return ( <> <section className="py-4">
+        <Container maxWidth="lg" className="container-xxl custom-card-slider">
+            <Box>
+                <Typography variant="h5" className="card-wrapper-title">Product Title</Typography>
+            </Box>
             <Swiper
                 spaceBetween={10}
                 slidesPerView={4}
                 grabCursor={true}
                 pagination={true}
                 onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}>
+                onSwiper={(swiper) => console.log(swiper)}
+                >
                 <SwiperSlide>
                     <Card>
                         <CardMedia component="img" image={bannerimg1} alt="green iguana"/>

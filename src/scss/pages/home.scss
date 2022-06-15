@@ -3,3 +3,16 @@
         height: calc( 100vh - 101px);
     }
 }
+
+// custom-card-slider
+
+
+.custom-card-slider{
+    .swiper{
+        padding-top: 0.875;
+        padding-bottom: 0.875;
+    }
+    .card-wrapper-title{
+        padding-bottom: 1.25rem;
+    }
+}
