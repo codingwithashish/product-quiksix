@@ -5,6 +5,14 @@
     align-items: center;
 }
 
+@mixin f-between {
+    // @include f-center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 @mixin p-center {
     // @include p-center;
     position: absolute;

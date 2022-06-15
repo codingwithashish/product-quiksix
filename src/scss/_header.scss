@@ -1,13 +1,18 @@
 .main-header {
     box-shadow: $base_shadow;
     transition: $cmn_transition;
-    padding-bottom: 1rem;
+
     .top-nav {
-        padding: 0.875rem 0;
         border-bottom: $cmn-border-sm;
+
+        li {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
         .nav-link {
             display: inline-block;
-            font-size: map-get($font , small_font);
+            font-size: map-get($font, small_font);
             padding: 0 1rem 0 0;
         }
     }
@@ -15,58 +20,29 @@
     ul {
         margin-bottom: 0;
     }
-    .nav-link{
+
+    .nav-link {
         color: $primary_green;
     }
 
     .center-nav {
         padding: 1rem 0;
 
-        .search-container {
-            max-width: 450px;
-            width: 100%;
-            padding: 0.5rem 0;
-            border-radius: 12px;
-            border: $cmn-border-md;
-
-            .form-control {
-                border: 0;
-                padding-top: 5px;
-                padding-bottom: 5px;
-                font-size: map-get($font , heading_six);
-            }
-
-            > .search-input {
-                padding-left: 20px;
-                padding-right: 30px;
-
-                &::before {
-                    content: '';
-                    width: 2px;
-                    height: 100%;
-                    background-color: $border-color;
-                    position: absolute;
-                    top: 0;
-                }
-            }
-
-            .magnifying-glass {
-                position: absolute;
-                right: 12px;
-                top: 50%;
-                transform: translateY(-50%);
-            }
-        }
-
         .custom-icons {
             a {
                 margin-left: 1.3rem;
-                font-size: map-get($font, heading_six );
+                font-size: map-get($font, small_font);
+
+                svg {
+                    font-size: 20px;
+                    color: $primary_green;
+                }
             }
         }
     }
-    .bottom-nav{
-        .nav-link{
+
+    .bottom-nav {
+        .nav-link {
             text-transform: uppercase;
         }
     }

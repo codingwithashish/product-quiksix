@@ -88,17 +88,31 @@
         color: $white;
         background-color: $primary_green;
 
-        &:focus{
+        &:focus {
             border-color: transparent;
             outline: none;
             box-shadow: none;
         }
-    }      
+    }
 }
+
 // ==========
 // Others
 
 // Headings
+
+//  custom classes
+.w-auto {
+    width: auto !important;
+}
+
+.justify-content-between{
+    justify-content: space-between !important;
+}
+
+.flex-between {
+    @include f-between;
+}
 
 // Common Navigation
 
