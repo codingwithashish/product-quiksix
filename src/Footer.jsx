@@ -1,18 +1,27 @@
-import { Container } from "@mui/material";
 import React from "react";
-import logo from './images/Brand.png';
+import { Email, PhoneAndroid } from "@mui/icons-material";
+import { Box, Container, Grid, Typography } from "@mui/material";
 
 const Footer = () => {
     return (<> 
-        <footer className="footer bg-blue pt-6">
+        <footer className="footer bg-primary_green py-4">
             <Container maxWidth="lg" className="container-xxl">
-                <div className="row">
-                    <div className="col-md-4">
-                        <h3 className="mb-3">About us</h3>
-                        <h4>Logo</h4>
-                        <p>dummy content dummy content dummy content</p>
-                    </div>
-                </div>
+                <Grid container spacing={2}>
+                    <Grid item xs={12} md={6} lg={4}  className="col-md-4">
+                        <Typography variant="h3" className="mb-3">About us</Typography>
+                        <a href="#"> LOGO1 </a>
+                        <Typography>Dummy content dummy content dummy content</Typography>
+                       
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}  className="col-md-4">
+                        <Typography variant="h3" className="mb-3">Links</Typography>
+                    </Grid>
+                    <Grid item xs={12} md={6} lg={4}  className="col-md-4">
+                        <Typography variant="h3" className="mb-3">Contact</Typography>
+                        <a href=""> <PhoneAndroid /> +91 1234567890</a>
+                        <a href=""> <Email/> quiksix@gmail.com</a>
+                    </Grid>
+                </Grid>
             </Container>
         </footer>
     </>

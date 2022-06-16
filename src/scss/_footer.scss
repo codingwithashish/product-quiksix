@@ -1,6 +1,15 @@
-.footer{
-    h3{
-        font-size: 1.25rem;
+.footer {
+    color: $white;
+    font-size: map-get($font, small_font );
+    h3 {
+        font-size: 1.125rem;
         color: $white;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    a,svg {
+        color: $white;
+        vertical-align: middle;
     }
 }

@@ -1,6 +1,6 @@
 @import "mixin";
-
 // ==========
+
 // Text Colors
 .text-black {
     color: $primary_black;
@@ -39,8 +39,12 @@
 // ==========
 // Backgrounds
 
-.bg-blue {
+.bg-primary_blue {
     background-color: $primary_blue;
+}
+
+.bg-primary_green {
+    background-color: $primary_green;
 }
 
 // ==========
@@ -53,13 +57,16 @@
     margin-bottom: $unit-5 !important;
 }
 
-
 .mt-6 {
     margin-top: $unit-6;
 }
 
 .pt-6 {
     padding-top: $unit-6;
+}
+
+.pt-4 {
+    padding-top: $unit-4;
 }
 
 .py-5{
@@ -80,6 +87,14 @@
 .my-6 {
     margin-top: $unit-6;
     margin-bottom: $unit-6;
+}
+.px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+} 
+.px-1 {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
 }
 
 // ==========
@@ -111,7 +126,7 @@
 
 // Headings
 
-//  custom classes
+//custom classes
 .w-auto {
     width: auto !important;
 }

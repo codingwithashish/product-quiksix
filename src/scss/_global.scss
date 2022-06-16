@@ -16,7 +16,6 @@ a {
     text-decoration: none;
     color: $primary_green;
     transition: all 300ms ease;
-
     &:hover {
         color: $primary_blue !important;
     }
@@ -28,7 +27,6 @@ a {
 
 .form-control {
     cursor: pointer;
-
     &:focus {
         border-color: $primary_black;
         box-shadow: none;
@@ -43,10 +41,7 @@ img {
 i,
 svg {
     color: $primary_black;
-
     &:hover {
         color: $primary_green;
     }
 }
-
-// swiper carousel
