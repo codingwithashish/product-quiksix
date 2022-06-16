@@ -70,7 +70,9 @@ const Header = () => {
             </Box>
             <Box className="bottom-nav"></Box>
         </Container>
-    </header> </>
+    </header>
+    
+    </>
     )
 }
 

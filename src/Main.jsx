@@ -6,7 +6,8 @@ const Main = () => {
         <>
             <main>
                 <Banner />
-                <ProductCards/>
+                <ProductCards />
+                
             </main>
         </>
     )
