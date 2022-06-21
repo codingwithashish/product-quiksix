@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/product-quiksix/static/css/main.a051ac0d.css",
+    "main.js": "/product-quiksix/static/js/main.6de2b3e7.js",
+    "static/media/table1.jpg": "/product-quiksix/static/media/table1.13c2bcafd6006287cc7c.jpg",
+    "index.html": "/product-quiksix/index.html",
+    "main.a051ac0d.css.map": "/product-quiksix/static/css/main.a051ac0d.css.map",
+    "main.6de2b3e7.js.map": "/product-quiksix/static/js/main.6de2b3e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a051ac0d.css",
+    "static/js/main.6de2b3e7.js"
+  ]
+}
